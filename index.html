@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Widget</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Chat Button -->
+  <div id="chat-toggle" class="chat-toggle">💬</div>
+
+  <!-- Chatbox -->
+  <div id="chatbox" class="chatbox">
+    <header class="chat-header">
+      Chatbot
+      <span id="close-chat" class="close-chat">×</span>
+    </header>
+
+    <ul id="chat-window" class="chat-window">
+      <li class="bot">Hello! How can I help?</li>
+    </ul>
+
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Type your message…">
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
